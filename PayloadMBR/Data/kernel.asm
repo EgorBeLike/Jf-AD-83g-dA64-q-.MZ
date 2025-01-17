@@ -70,7 +70,6 @@ olddata:
         mov si, dx
         jmp readcommand
 
-
 ;The decompressor will jump here if it's done
 compressorDone:
 
@@ -222,6 +221,8 @@ SECTOR_NUMBER: dd 0           ;Sector number where write
 
 times 510 - ($ - $$) db 0     ;Fill the data with zeros until we reach 510 bytes
 dw 0xAA55                     ;Add the boot sector signature
+db 'ORIGINAL MBR'             ;Original MBR
+times 1024 - ($ - $$) db 0    ;Fill the data with zeros until we reach 1024 bytes - original sector place
 
 comp: incbin "Image\Custom.bin" ;Include the compressed data (it will go right after the original MBR)
 compsize: equ $-comp ;Size of the compressed data

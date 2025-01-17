@@ -1,21 +1,21 @@
 ﻿  Проверка источников на наличие зависимостей модуля…
   Main.cpp
-C:\Users\Nikita\source\repos\Jf(157,68): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(185,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(227,20): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(246,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(247,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(266,16): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(267,17): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(159,68): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(187,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(229,20): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(248,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(249,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\Nikita\source\repos\Jf(268,16): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\Nikita\source\repos\Jf(269,17): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(288,4): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(294,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(313,4): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(334,4): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(375,10): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(393,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Nikita\source\repos\Jf(394,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(270,16): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(271,17): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(290,4): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(296,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(315,4): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(336,4): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(377,10): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(395,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\source\repos\Jf(396,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   Microsoft (R) Incremental Linker Version 14.41.34123.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   "/OUT:C:\Users\Nikita\source\repos\Jf#AD@83g$&&dA64%q$.MZ\x64\Release\Jf#AD@83g$&&dA64%q$.MZ.exe" /VERBOSE "/VERSION:1,0,0,0" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:Jf.manifest "/PDB:C:\Users\Nikita\source\repos\Jf#AD@83g$&&dA64%q$.MZ\x64\Release\Jf#AD@83g$&&dA64%q$.MZ.pdb" /ASSEMBLYDEBUG:DISABLE /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG:incremental "/LTCGOUT:x64\Release\Jf#AD@83g$&&dA64%q$.MZ.iobj" /TLBID:1 /RELEASE /DYNAMICBASE /FIXED:NO /NXCOMPAT "/IMPLIB:C:\Users\Nikita\source\repos\Jf#AD@83g$&&dA64%q$.MZ\x64\Release\Jf#AD@83g$&&dA64%q$.MZ.lib" /MACHINE:X64 /CLRTHREADATTRIBUTE:NONE /guard:cf x64\Release\Resource.res 
@@ -1166,9 +1166,9 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален __guard_xfg_table_dispatch_icall_fptr из MSVCRT.lib(guard_support.obj)
       Удален __castguard_check_failure_os_handled_fptr из MSVCRT.lib(guard_support.obj)
   Создание кода
-  1 of 384 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  4 of 398 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Поиск библиотек
       Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x64\kernel32.lib:
@@ -1301,34 +1301,34 @@ LINK : warning LNK4056: лишние аргументы для параметр�
   Поиск библиотек завершен
   Вызов mt.exe:
    /verbose
-   "/out:C:\Users\Nikita\AppData\Local\Temp\lnk{427F9A91-E616-4F82-A9A4-808CEF88E151}.tmp"
+   "/out:C:\Users\Nikita\AppData\Local\Temp\lnk{18A0610B-32A0-4CED-A1F1-A194C248B82D}.tmp"
    /manifest
    "Jf.manifest"
-   "C:\Users\Nikita\AppData\Local\Temp\lnk{E4B4D1F3-9163-4045-B81D-90A85907C77D}.tmp"
+   "C:\Users\Nikita\AppData\Local\Temp\lnk{2CC18F15-EBFB-4578-8D51-B61971F98504}.tmp"
   Вызов rc.exe:
    /v
    /x
    /fo
-   "C:\Users\Nikita\AppData\Local\Temp\lnk{1E962962-46EA-47D9-A86A-16BDB390AA4C}.tmp"
-   "C:\Users\Nikita\AppData\Local\Temp\lnk{145A5C56-2FAE-473E-B4E3-F29BBBF44426}.tmp"
+   "C:\Users\Nikita\AppData\Local\Temp\lnk{60962287-1E0E-4245-A0D2-9260636A0808}.tmp"
+   "C:\Users\Nikita\AppData\Local\Temp\lnk{9236ED81-1818-4098-8605-87E8DB88A38A}.tmp"
   Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
   
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
   
   Using codepage 1251 as default
-  Creating C:\Users\Nikita\AppData\Local\Temp\lnk{1E962962-46EA-47D9-A86A-16BDB390AA4C}.tmp
+  Creating C:\Users\Nikita\AppData\Local\Temp\lnk{60962287-1E0E-4245-A0D2-9260636A0808}.tmp
   
   
-  C:\Users\Nikita\AppData\Local\Temp\lnk{145A5C56-2FAE-473E-B4E3-F29BBBF44426}.tmp.
+  C:\Users\Nikita\AppData\Local\Temp\lnk{9236ED81-1818-4098-8605-87E8DB88A38A}.tmp.
   Writing 24:1,	lang:0x409,	size 995
   Вызов cvtres.exe:
    /machine:amd64
    /verbose
-   /out:"C:\Users\Nikita\AppData\Local\Temp\lnk{86D79540-55F7-4A2E-87C5-9277BC45968E}.tmp"
+   /out:"C:\Users\Nikita\AppData\Local\Temp\lnk{686DAC4D-EFEC-4D05-9F4F-E06E95D26EC2}.tmp"
    /readonly
    "x64\Release\Resource.res"
-   "C:\Users\Nikita\AppData\Local\Temp\lnk{1E962962-46EA-47D9-A86A-16BDB390AA4C}.tmp"
+   "C:\Users\Nikita\AppData\Local\Temp\lnk{60962287-1E0E-4245-A0D2-9260636A0808}.tmp"
   ╩юэтхЁЄхЁ ЁхёєЁёют Windows т юс·хъЄ√ (Microsoft (R)), тхЁёш  14.41.34123.0
   (C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
   
@@ -1513,10 +1513,12 @@ LINK : warning LNK4056: лишние аргументы для параметр�
           __imp__CxxThrowException		; vcruntime.lib(VCRUNTIME140.dll)
           __GSHandlerCheck		; MSVCRT.lib(gshandler.obj)
           ??_C@_01KICIPPFI@?2@		; Main.obj
+          ??_C@_01CLKCMJKC@?5@		; Main.obj
           StretchBlt		; gdi32.lib(GDI32.dll)
           __imp_SHGetStockIconInfo		; shell32.lib(SHELL32.dll)
           __imp___std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
           ?__noop_coroutine_frame_instance@@3U__noop_coroutine_frame_standard@@A		; std.ixx.obj
+          ??_C@_09HHNIGFA@Set?5HASC?5@		; Main.obj
           __imp_RegSetValueExA		; advapi32.lib(ADVAPI32.dll)
           __imp__get_initial_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
           __std_tzdb_delete_current_zone		; msvcprt.lib(MSVCP140_ATOMIC_WAIT.dll)
@@ -1565,6 +1567,7 @@ LINK : warning LNK4056: лишние аргументы для параметр�
           _get_startup_argv_mode		; MSVCRT.lib(argv_mode.obj)
           __imp_RtlVirtualUnwind		; kernel32.lib(KERNEL32.dll)
           ?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z		; msvcprt.lib(MSVCP140.dll)
+          ??_C@_09OIBDGLG@Get?5Path?5@		; Main.obj
           __scrt_initialize_winrt		; MSVCRT.lib(utility_desktop.obj)
           __imp_free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
           ?less@strong_ordering@std@@2U12@B		; std.ixx.obj
@@ -1666,8 +1669,10 @@ LINK : warning LNK4056: лишние аргументы для параметр�
           __scrt_get_dyn_tls_dtor_callback		; MSVCRT.lib(dyn_tls_dtor.obj)
           __imp___std_tzdb_delete_time_zones		; msvcprt.lib(MSVCP140_ATOMIC_WAIT.dll)
           __imp_waveOutReset		; Winmm.lib(WINMM.dll)
+          ??_C@_08HHAADLMF@raise?$CI?$CJ?$DL@		; Main.obj
           __imp__initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
           __std_atomic_notify_all_direct		; msvcprt.lib(MSVCP140_ATOMIC_WAIT.dll)
+          ??_C@_09CAMEBHCE@Set?5Path?5@		; Main.obj
           _set_new_mode		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
           ?_Osfx@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAXXZ		; msvcprt.lib(MSVCP140.dll)
           __imp_?flush@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@XZ		; msvcprt.lib(MSVCP140.dll)
@@ -1710,7 +1715,6 @@ LINK : warning LNK4056: лишние аргументы для параметр�
           __scrt_acquire_startup_lock		; MSVCRT.lib(utility.obj)
           ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@		; Main.obj
           ??3@YAXPEAX@Z		; MSVCRT.lib(delete_scalar.obj)
-          ??_C@_0HO@BPPKKBDB@?B?M?H?L?$MA?M?H?E?$CB?6?6?D?$OA?m?m?$OA?$PP?5?o?p?n?c?p?$OA?l?l?$OA?5?m?$OA?m@		; Main.obj
           ?set_fmode@__scrt_file_policy@@SAXXZ		; MSVCRT.lib(exe_main.obj)
           ??_R4bad_array_new_length@std@@6B@		; Main.obj
           __imp___std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
@@ -1816,6 +1820,7 @@ LINK : warning LNK4056: лишние аргументы для параметр�
           TerminateProcess		; kernel32.lib(KERNEL32.dll)
           __imp___std_exception_destroy		; vcruntime.lib(VCRUNTIME140.dll)
   Завершена обработка параметров /ORDER
+      Удален "`string'" (??_C@_1CG@JNMJDDHN@?$AA?2?$AA?2?$AA?4?$AA?2?$AAP?$AAh?$AAy?$AAs?$AAi?$AAc?$AAa?$AAl?$AAD?$AAr?$AAi@) из Main.obj
       Удален "`string'" (??_C@_0N@LPFKKEBD@?3AM?3am?3PM?3pm@) из Main.obj
       Удален "`string'" (??_C@_1BK@MHIKGOKE@?$AA?3?$AAA?$AAM?$AA?3?$AAa?$AAm?$AA?3?$AAP?$AAM?$AA?3?$AAp?$AAm@) из Main.obj
       Удален "struct std::_Fake_allocator const std::_Fake_alloc" (?_Fake_alloc@std@@3U_Fake_allocator@1@B) из Main.obj
@@ -1866,11 +1871,13 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $cppxdata$?end@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ из Main.obj
       Удален $stateUnwindMap$?end@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ из Main.obj
       Удален $ip2state$?end@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ из Main.obj
+      Удален $unwind$?raise@@YAXXZ из Main.obj
       Удален $unwind$?DrawIconOnCursor@@YAXPEAUHICON__@@H@Z из Main.obj
       Удален $unwind$?TunnelRandGDI@@YAXH@Z из Main.obj
       Удален $unwind$?ScratchGDI@@YAXH@Z из Main.obj
       Удален $unwind$?CheckRegVal@@YA?AW4RegStat@@PEAUHKEY__@@PEBD1V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z из Main.obj
       Удален $unwind$?SetRegVal@@YA?AW4RegStat@@PEAUHKEY__@@PEBD1QEAD@Z из Main.obj
+      Удален $unwind$?mbr@@YAKPEAX@Z из Main.obj
       Удален $unwind$?at@?$vector@DV?$allocator@D@std@@@std@@QEAAAEAD_K@Z из Main.obj
       Удален $unwind$?resize@?$vector@DV?$allocator@D@std@@@std@@QEAAX_K@Z из Main.obj
       Удален $unwind$??1?$vector@PEAUHICON__@@V?$allocator@PEAUHICON__@@@std@@@std@@QEAA@XZ из Main.obj
@@ -1907,6 +1914,8 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $unwind$??R<lambda_1>@?1??append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV23@QEB_W_K@Z@QEBA@QEA_W0101@Z из Main.obj
       Удален $unwind$?deallocate@?$allocator@_W@std@@QEAAXQEA_W_K@Z из Main.obj
       Удален $unwind$?assign@?$_Char_traits@_WG@std@@SAPEA_WQEA_W_K_W@Z из Main.obj
+      Удален $unwind$?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ из Main.obj
+      Удален $unwind$??$_Integral_to_string@DH@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@H@Z из Main.obj
       Удален $unwind$??$?0_WU?$char_traits@_W@std@@V?$allocator@_W@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@4@@Z из Main.obj
       Удален $cppxdata$??$?0_WU?$char_traits@_W@std@@V?$allocator@_W@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@4@@Z из Main.obj
       Удален $stateUnwindMap$??$?0_WU?$char_traits@_W@std@@V?$allocator@_W@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@4@@Z из Main.obj
@@ -1916,7 +1925,6 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $cppxdata$??$?0DU?$char_traits@D@std@@V?$allocator@D@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z из Main.obj
       Удален $stateUnwindMap$??$?0DU?$char_traits@D@std@@V?$allocator@D@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z из Main.obj
       Удален $ip2state$??$?0DU?$char_traits@D@std@@V?$allocator@D@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z из Main.obj
-      Удален $unwind$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z из Main.obj
       Удален $unwind$??$_Resize@U_Value_init_tag@std@@@?$vector@DV?$allocator@D@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z из Main.obj
       Удален $unwind$??$append@PEB_W$0A@@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV01@QEB_W0@Z из Main.obj
       Удален $unwind$??$_Construct@$0A@_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AEAAX_W_K@Z из Main.obj
@@ -1930,8 +1938,12 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $unwind$??$_Deallocate@$0BA@@std@@YAXPEAX_K@Z из Main.obj
       Удален $unwind$??$_Allocate@$0BA@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z из Main.obj
       Удален $unwind$?_Cvt@?$_Path_cvt@D_WU?$char_traits@_W@std@@V?$allocator@_W@2@@v1@filesystem@experimental@std@@SA$$QEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@5@AEAV65@PEBD_K@Z из Main.obj
+      Удален $unwind$?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD@Z из Main.obj
       Удален $unwind$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@U_String_constructor_concat_tag@1@AEAV01@1@Z из Main.obj
       Удален $unwind$?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@QEB_W@Z из Main.obj
+      Удален $unwind$?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD0@Z из Main.obj
+      Удален $unwind$??R<lambda_1>@?1??insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV23@_KQEBD0@Z@QEBA@QEAD10010@Z из Main.obj
+      Удален $unwind$??$?0PEAD$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@PEAD0AEBV?$allocator@D@1@@Z из Main.obj
       Удален $unwind$??$_Uninitialized_value_construct_n@V?$allocator@D@std@@@std@@YAPEADPEAD_KAEAV?$allocator@D@0@@Z из Main.obj
       Удален $unwind$??$_Allocate_for_capacity@$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPEADAEAV?$allocator@D@1@AEA_K@Z из Main.obj
       Удален $unwind$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z из Main.obj
@@ -2045,8 +2057,12 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $pdata$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z из Main.obj
       Удален $pdata$??$_Allocate_for_capacity@$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPEADAEAV?$allocator@D@1@AEA_K@Z из Main.obj
       Удален $pdata$??$_Uninitialized_value_construct_n@V?$allocator@D@std@@@std@@YAPEADPEAD_KAEAV?$allocator@D@0@@Z из Main.obj
+      Удален $pdata$??$?0PEAD$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@PEAD0AEBV?$allocator@D@1@@Z из Main.obj
+      Удален $pdata$??R<lambda_1>@?1??insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV23@_KQEBD0@Z@QEBA@QEAD10010@Z из Main.obj
+      Удален $pdata$?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD0@Z из Main.obj
       Удален $pdata$?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@QEB_W@Z из Main.obj
       Удален $pdata$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@U_String_constructor_concat_tag@1@AEAV01@1@Z из Main.obj
+      Удален $pdata$?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD@Z из Main.obj
       Удален $pdata$?_Cvt@?$_Path_cvt@D_WU?$char_traits@_W@std@@V?$allocator@_W@2@@v1@filesystem@experimental@std@@SA$$QEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@5@AEAV65@PEBD_K@Z из Main.obj
       Удален $pdata$??$_Allocate@$0BA@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z из Main.obj
       Удален $pdata$??$_Deallocate@$0BA@@std@@YAXPEAX_K@Z из Main.obj
@@ -2057,10 +2073,11 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $pdata$??$_Construct@$0A@_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AEAAX_W_K@Z из Main.obj
       Удален $pdata$??$append@PEB_W$0A@@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV01@QEB_W0@Z из Main.obj
       Удален $pdata$??$_Resize@U_Value_init_tag@std@@@?$vector@DV?$allocator@D@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z из Main.obj
-      Удален $pdata$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z из Main.obj
       Удален $pdata$??$?0DU?$char_traits@D@std@@V?$allocator@D@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z из Main.obj
       Удален $pdata$??$?0V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@std@@$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@1@0AEBV?$allocator@D@1@@Z из Main.obj
       Удален $pdata$??$?0_WU?$char_traits@_W@std@@V?$allocator@_W@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@4@@Z из Main.obj
+      Удален $pdata$??$_Integral_to_string@DH@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@H@Z из Main.obj
+      Удален $pdata$?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ из Main.obj
       Удален $pdata$?assign@?$_Char_traits@_WG@std@@SAPEA_WQEA_W_K_W@Z из Main.obj
       Удален $pdata$?deallocate@?$allocator@_W@std@@QEAAXQEA_W_K@Z из Main.obj
       Удален $pdata$??R<lambda_1>@?1??append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV23@QEB_W_K@Z@QEBA@QEA_W0101@Z из Main.obj
@@ -2094,11 +2111,13 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $pdata$??1?$vector@PEAUHICON__@@V?$allocator@PEAUHICON__@@@std@@@std@@QEAA@XZ из Main.obj
       Удален $pdata$?resize@?$vector@DV?$allocator@D@std@@@std@@QEAAX_K@Z из Main.obj
       Удален $pdata$?at@?$vector@DV?$allocator@D@std@@@std@@QEAAAEAD_K@Z из Main.obj
+      Удален $pdata$?mbr@@YAKPEAX@Z из Main.obj
       Удален $pdata$?SetRegVal@@YA?AW4RegStat@@PEAUHKEY__@@PEBD1QEAD@Z из Main.obj
       Удален $pdata$?CheckRegVal@@YA?AW4RegStat@@PEAUHKEY__@@PEBD1V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z из Main.obj
       Удален $pdata$?ScratchGDI@@YAXH@Z из Main.obj
       Удален $pdata$?TunnelRandGDI@@YAXH@Z из Main.obj
       Удален $pdata$?DrawIconOnCursor@@YAXPEAUHICON__@@H@Z из Main.obj
+      Удален $pdata$?raise@@YAXXZ из Main.obj
       Удален $pdata$?end@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ из Main.obj
       Удален $pdata$?begin@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ из Main.obj
       Удален $pdata$?string@path@v1@filesystem@experimental@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@5@XZ из Main.obj
@@ -2115,6 +2134,9 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален $pdata$??0sentry@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAA@AEAV12@@Z из std.ixx.obj
       Удален $pdata$??1sentry@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAA@XZ из std.ixx.obj
       Удален $pdata$??_Gbad_variant_access@std@@UEAAPEAXI@Z из std.ixx.obj
+      Удален ".idata$4" из kernel32.lib(KERNEL32.dll)
+      Удален ".idata$4" из kernel32.lib(KERNEL32.dll)
+      Удален ".idata$4" из kernel32.lib(KERNEL32.dll)
       Удален ".idata$4" из kernel32.lib(KERNEL32.dll)
       Удален ".idata$4" из kernel32.lib(KERNEL32.dll)
       Удален ".idata$4" из msvcprt.lib(MSVCP140.dll)
@@ -2156,7 +2178,12 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален ".idata$4" из ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
       Удален ".idata$4" из ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
       Удален ".idata$4" из ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Удален ".idata$4" из ntdll.lib(ntdll.dll)
+      Удален ".idata$4" из ntdll.lib(ntdll.dll)
+      Удален __imp_CloseHandle из kernel32.lib(KERNEL32.dll)
       Удален __imp_ExitThread из kernel32.lib(KERNEL32.dll)
+      Удален __imp_CreateFileW из kernel32.lib(KERNEL32.dll)
+      Удален __imp_WriteFile из kernel32.lib(KERNEL32.dll)
       Удален __imp_GetStartupInfoW из kernel32.lib(KERNEL32.dll)
       Удален "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) из msvcprt.lib(MSVCP140.dll)
       Удален "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) из msvcprt.lib(MSVCP140.dll)
@@ -2191,6 +2218,9 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален __imp__seh_filter_dll из ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
       Удален __imp__crt_at_quick_exit из ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
       Удален __imp__execute_onexit_table из ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Удален ".idata$6" из kernel32.lib(KERNEL32.dll)
+      Удален ".idata$6" из kernel32.lib(KERNEL32.dll)
+      Удален ".idata$6" из kernel32.lib(KERNEL32.dll)
       Удален ".idata$6" из kernel32.lib(KERNEL32.dll)
       Удален ".idata$6" из user32.lib(USER32.dll)
       Удален ".idata$6" из msvcprt.lib(MSVCP140.dll)
@@ -2254,12 +2284,14 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален "public: class std::experimental::filesystem::v1::_Path_iterator<class std::experimental::filesystem::v1::path> __cdecl std::experimental::filesystem::v1::path::begin(void)const " (?begin@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ) из Main.obj
       Удален "public: class std::experimental::filesystem::v1::_Path_iterator<class std::experimental::filesystem::v1::path> __cdecl std::experimental::filesystem::v1::path::end(void)const " (?end@path@v1@filesystem@experimental@std@@QEBA?AV?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@2345@XZ) из Main.obj
       Удален "public: void __cdecl std::experimental::filesystem::v1::_Path_iterator<class std::experimental::filesystem::v1::path>::__autoclassinit2(unsigned __int64)" (?__autoclassinit2@?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@v1@filesystem@experimental@std@@QEAAX_K@Z) из Main.obj
+      Удален "void __cdecl raise(void)" (?raise@@YAXXZ) из Main.obj
       Удален "void __cdecl DrawIconOnCursor(struct HICON__ *,int)" (?DrawIconOnCursor@@YAXPEAUHICON__@@H@Z) из Main.obj
       Удален "void __cdecl TunnelRandGDI(int)" (?TunnelRandGDI@@YAXH@Z) из Main.obj
       Удален "void __cdecl ScratchGDI(int)" (?ScratchGDI@@YAXH@Z) из Main.obj
       Удален "enum RegStat __cdecl CheckRegVal(struct HKEY__ *,char const *,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CheckRegVal@@YA?AW4RegStat@@PEAUHKEY__@@PEBD1V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) из Main.obj
       Удален "enum RegStat __cdecl SetRegVal(struct HKEY__ *,char const *,char const *,char * const)" (?SetRegVal@@YA?AW4RegStat@@PEAUHKEY__@@PEBD1QEAD@Z) из Main.obj
       Удален "public: void __cdecl std::vector<char,class std::allocator<char> >::__autoclassinit2(unsigned __int64)" (?__autoclassinit2@?$vector@DV?$allocator@D@std@@@std@@QEAAX_K@Z) из Main.obj
+      Удален "unsigned long __cdecl mbr(void *)" (?mbr@@YAKPEAX@Z) из Main.obj
       Удален "public: char & __cdecl std::vector<char,class std::allocator<char> >::at(unsigned __int64)" (?at@?$vector@DV?$allocator@D@std@@@std@@QEAAAEAD_K@Z) из Main.obj
       Удален "public: unsigned __int64 __cdecl std::vector<char,class std::allocator<char> >::size(void)const " (?size@?$vector@DV?$allocator@D@std@@@std@@QEBA_KXZ) из Main.obj
       Удален "public: class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<char> > > __cdecl std::vector<char,class std::allocator<char> >::end(void)" (?end@?$vector@DV?$allocator@D@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@2@XZ) из Main.obj
@@ -2362,10 +2394,15 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален "public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::append(wchar_t const * const,unsigned __int64)" (?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@QEB_W_K@Z) из Main.obj
       Удален "public: __cdecl `public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::append(wchar_t const * const,unsigned __int64)'::`2'::<lambda_1>::operator()(wchar_t * const,wchar_t const * const,unsigned __int64,wchar_t const * const,unsigned __int64)const " (??R<lambda_1>@?1??append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV23@QEB_W_K@Z@QEBA@QEA_W0101@Z) из Main.obj
       Удален "public: void __cdecl std::allocator<wchar_t>::deallocate(wchar_t * const,unsigned __int64)" (?deallocate@?$allocator@_W@std@@QEAAXQEA_W_K@Z) из Main.obj
+      Удален "public: void __cdecl std::_String_val<struct std::_Simple_types<char> >::_Check_offset(unsigned __int64)const " (?_Check_offset@?$_String_val@U?$_Simple_types@D@std@@@std@@QEBAX_K@Z) из Main.obj
       Удален "public: static void __cdecl std::_Char_traits<char,int>::assign(char &,char const &)" (?assign@?$_Char_traits@DH@std@@SAXAEADAEBD@Z) из Main.obj
       Удален "public: static void __cdecl std::_Char_traits<wchar_t,unsigned short>::assign(wchar_t &,wchar_t const &)" (?assign@?$_Char_traits@_WG@std@@SAXAEA_WAEB_W@Z) из Main.obj
       Удален "public: static wchar_t * __cdecl std::_Char_traits<wchar_t,unsigned short>::assign(wchar_t * const,unsigned __int64,wchar_t)" (?assign@?$_Char_traits@_WG@std@@SAPEA_WQEA_W_K_W@Z) из Main.obj
+      Удален "public: static void __cdecl std::_String_val<struct std::_Simple_types<char> >::_Xran(void)" (?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ) из Main.obj
+      Удален "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::_Integral_to_string<char,int>(int)" (??$_Integral_to_string@DH@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@H@Z) из Main.obj
+      Удален "char * __cdecl std::end<char,21>(char (&)[21])" (??$end@D$0BF@@std@@YAPEADAEAY0BF@D@Z) из Main.obj
       Удален "void __cdecl std::_Adl_verify_range<wchar_t const *,wchar_t const *>(wchar_t const * const &,wchar_t const * const &)" (??$_Adl_verify_range@PEB_WPEB_W@std@@YAXAEBQEB_W0@Z) из Main.obj
+      Удален "void __cdecl std::_Adl_verify_range<char *,char *>(char * const &,char * const &)" (??$_Adl_verify_range@PEADPEAD@std@@YAXAEBQEAD0@Z) из Main.obj
       Удален "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > && __cdecl std::move<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (??$move@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEAV10@@Z) из Main.obj
       Удален "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > && __cdecl std::move<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &>(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)" (??$move@AEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@YA$$QEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@AEAV10@@Z) из Main.obj
       Удален "public: __cdecl `public: class std::experimental::filesystem::v1::path & __cdecl std::experimental::filesystem::v1::path::append<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)'::`2'::<lambda_1>::operator()(wchar_t)const " (??R<lambda_1>@?1???$append@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@path@v1@filesystem@experimental@std@@QEAAAEAV12345@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@5@@Z@QEBA@_W@Z) из Main.obj
@@ -2375,7 +2412,6 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален "decltype(auto) __cdecl std::_Get_unwrapped<class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<char> > > &>(class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<char> > > &)" (??$_Get_unwrapped@AEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@YA?A_TAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@0@@Z) из Main.obj
       Удален "public: __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> ><class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<char> > >,0>(class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<char> > >,class std::_Vector_iterator<class std::_Vector_val<struct std::_Simple_types<char> > >,class std::allocator<char> const &)" (??$?0V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@std@@$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@1@0AEBV?$allocator@D@1@@Z) из Main.obj
       Удален "public: __cdecl std::experimental::filesystem::v1::path::path<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??$?0DU?$char_traits@D@std@@V?$allocator@D@1@@path@v1@filesystem@experimental@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z) из Main.obj
-      Удален "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::operator+<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)" (??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z) из Main.obj
       Удален "double __cdecl sin<unsigned long,0>(unsigned long)" (??$sin@K$0A@@@YANK@Z) из Main.obj
       Удален "class std::_Vector_val<struct std::_Simple_types<char> > * __cdecl std::addressof<class std::_Vector_val<struct std::_Simple_types<char> > >(class std::_Vector_val<struct std::_Simple_types<char> > &)" (??$addressof@V?$_Vector_val@U?$_Simple_types@D@std@@@std@@@std@@YAPEAV?$_Vector_val@U?$_Simple_types@D@std@@@0@AEAV10@@Z) из Main.obj
       Удален "private: void __cdecl std::vector<char,class std::allocator<char> >::_Resize<struct std::_Value_init_tag>(unsigned __int64,struct std::_Value_init_tag const &)" (??$_Resize@U_Value_init_tag@std@@@?$vector@DV?$allocator@D@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z) из Main.obj
@@ -2383,6 +2419,7 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален "private: struct HICON__ * & __cdecl std::vector<struct HICON__ *,class std::allocator<struct HICON__ *> >::_Emplace_one_at_back<struct HICON__ * const &>(struct HICON__ * const &)" (??$_Emplace_one_at_back@AEBQEAUHICON__@@@?$vector@PEAUHICON__@@V?$allocator@PEAUHICON__@@@std@@@std@@AEAAAEAPEAUHICON__@@AEBQEAU2@@Z) из Main.obj
       Удален "decltype(auto) __cdecl std::_Get_unwrapped<wchar_t const * const &>(wchar_t const * const &)" (??$_Get_unwrapped@AEBQEB_W@std@@YA?A_TAEBQEB_W@Z) из Main.obj
       Удален "public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::append<wchar_t const *,0>(wchar_t const * const,wchar_t const * const)" (??$append@PEB_W$0A@@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV01@QEB_W0@Z) из Main.obj
+      Удален "decltype(auto) __cdecl std::_Get_unwrapped<char * &>(char * &)" (??$_Get_unwrapped@AEAPEAD@std@@YA?A_TAEAPEAD@Z) из Main.obj
       Удален "char * __cdecl std::_Unfancy<char>(char *)" (??$_Unfancy@D@std@@YAPEADPEAD@Z) из Main.obj
       Удален "unsigned __int64 __cdecl std::_Traits_find_ch<struct std::char_traits<wchar_t> >(wchar_t const * const,unsigned __int64,unsigned __int64,wchar_t)" (??$_Traits_find_ch@U?$char_traits@_W@std@@@std@@YA_KQEB_W_K1_W@Z) из Main.obj
       Удален "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > * __cdecl std::addressof<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &)" (??$addressof@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@YAPEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@AEAV10@@Z) из Main.obj
@@ -2426,14 +2463,19 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Удален "private: unsigned __int64 __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Calculate_growth(unsigned __int64)const " (?_Calculate_growth@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBA_K_K@Z) из Main.obj
       Удален "private: static unsigned __int64 __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Calculate_growth(unsigned __int64,unsigned __int64,unsigned __int64)" (?_Calculate_growth@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CA_K_K00@Z) из Main.obj
       Удален "public: unsigned __int64 __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::max_size(void)const " (?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_KXZ) из Main.obj
+      Удален "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned __int64,char const * const)" (?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD@Z) из Main.obj
       Удален "public: __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(struct std::_String_constructor_concat_tag,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@U_String_constructor_concat_tag@1@AEAV01@1@Z) из Main.obj
       Удален "public: __cdecl std::_String_val<struct std::_Simple_types<char> >::_String_val<struct std::_Simple_types<char> >(void)" (??0?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ) из Main.obj
       Удален "public: static wchar_t const * __cdecl std::_WChar_traits<wchar_t>::find(wchar_t const *,unsigned __int64,wchar_t const &)" (?find@?$_WChar_traits@_W@std@@SAPEB_WPEB_W_KAEB_W@Z) из Main.obj
       Удален "public: class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::append(wchar_t const * const)" (?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@QEB_W@Z) из Main.obj
       Удален "public: __cdecl std::_String_val<struct std::_Simple_types<wchar_t> >::_Bxty::_Bxty(void)" (??0_Bxty@?$_String_val@U?$_Simple_types@_W@std@@@std@@QEAA@XZ) из Main.obj
       Удален "public: static unsigned __int64 __cdecl std::_Default_allocator_traits<class std::allocator<wchar_t> >::max_size(class std::allocator<wchar_t> const &)" (?max_size@?$_Default_allocator_traits@V?$allocator@_W@std@@@std@@SA_KAEBV?$allocator@_W@2@@Z) из Main.obj
+      Удален "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned __int64,char const * const,unsigned __int64)" (?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD0@Z) из Main.obj
+      Удален "public: __cdecl `public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::insert(unsigned __int64,char const * const,unsigned __int64)'::`2'::<lambda_1>::operator()(char * const,char const * const,unsigned __int64,unsigned __int64,char const * const,unsigned __int64)const " (??R<lambda_1>@?1??insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV23@_KQEBD0@Z@QEBA@QEAD10010@Z) из Main.obj
       Удален "public: __cdecl std::_String_val<struct std::_Simple_types<char> >::_Bxty::_Bxty(void)" (??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ) из Main.obj
       Удален "public: static unsigned __int64 __cdecl std::_Default_allocator_traits<class std::allocator<char> >::max_size(class std::allocator<char> const &)" (?max_size@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SA_KAEBV?$allocator@D@2@@Z) из Main.obj
+      Удален "char * __cdecl std::_UIntegral_to_buff<char,unsigned int>(char *,unsigned int)" (??$_UIntegral_to_buff@DI@std@@YAPEADPEADI@Z) из Main.obj
+      Удален "public: __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> ><char *,0>(char *,char *,class std::allocator<char> const &)" (??$?0PEAD$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@PEAD0AEBV?$allocator@D@1@@Z) из Main.obj
       Удален "class std::_String_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > > __cdecl std::transform<class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > >,class `public: class std::experimental::filesystem::v1::path & __cdecl std::experimental::filesystem::v1::path::append<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)'::`2'::<lambda_1> >(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > >,class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > >,class std::_String_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > >,class `public: class std::experimental::filesystem::v1::path & __cdecl std::experimental::filesystem::v1::path::append<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)'::`2'::<lambda_1>)" (??$transform@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@std@@V?$_String_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@2@V<lambda_1>@?1???$append@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@path@v1@filesystem@experimental@2@QEAAAEAV56782@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@@Z@@std@@YA?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@0@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@0@0V10@V<lambda_1>@?1???$append@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@path@v1@filesystem@experimental@0@QEAAAEAV45670@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@@Z@@Z) из Main.obj
       Удален "decltype(auto) __cdecl std::_Get_unwrapped<class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > > const &>(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > > const &)" (??$_Get_unwrapped@AEBV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@std@@@std@@YA?A_TAEBV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@0@@Z) из Main.obj
       Удален "public: wchar_t const * __cdecl std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<wchar_t> > >::_Unwrapped(void)const " (?_Unwrapped@?$_String_const_iterator@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@std@@QEBAPEB_WXZ) из Main.obj
@@ -2702,21 +2744,21 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Выбранный символ:
           __scrt_initialize_winrt из MSVCRT.lib(utility_desktop.obj)
       Замененные символы:
-          _get_startup_new_mode из MSVCRT.lib(new_mode.obj)
-          _get_startup_thread_locale_mode из MSVCRT.lib(thread_locale.obj)
           _get_startup_commit_mode из MSVCRT.lib(commit_mode.obj)
-          __scrt_stub_for_initialize_mta из MSVCRT.lib(utility_desktop.obj)
+          _get_startup_new_mode из MSVCRT.lib(new_mode.obj)
           _matherr из MSVCRT.lib(matherr.obj)
-      Выбранный символ:
-          _should_initialize_environment из MSVCRT.lib(env_mode.obj)
-      Замененные символы:
-          __scrt_stub_for_acrt_uninitialize из MSVCRT.lib(ucrt_stubs.obj)
-          __scrt_stub_for_acrt_initialize из MSVCRT.lib(ucrt_stubs.obj)
+          _get_startup_thread_locale_mode из MSVCRT.lib(thread_locale.obj)
+          __scrt_stub_for_initialize_mta из MSVCRT.lib(utility_desktop.obj)
       Выбранный символ:
           _guard_check_icall_nop из MSVCRT.lib(guard_support.obj)
       Замененные символы:
-          _initialize_invalid_parameter_handler из MSVCRT.lib(invalid_parameter_handler.obj)
           _initialize_denormal_control из MSVCRT.lib(denormal_control.obj)
+          _initialize_invalid_parameter_handler из MSVCRT.lib(invalid_parameter_handler.obj)
+      Выбранный символ:
+          _should_initialize_environment из MSVCRT.lib(env_mode.obj)
+      Замененные символы:
+          __scrt_stub_for_acrt_initialize из MSVCRT.lib(ucrt_stubs.obj)
+          __scrt_stub_for_acrt_uninitialize из MSVCRT.lib(ucrt_stubs.obj)
       Выбранный символ:
           "private: static void __cdecl std::vector<char,class std::allocator<char> >::_Xlength(void)" (?_Xlength@?$vector@DV?$allocator@D@std@@@std@@CAXXZ) из Main.obj
       Замененные символы:
@@ -2726,38 +2768,38 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Замененные символы:
           "public: virtual __cdecl std::bad_array_new_length::~bad_array_new_length(void)" (??1bad_array_new_length@std@@UEAA@XZ) из Main.obj
       Выбранный символ:
+          "public: virtual void * __cdecl std::exception::`scalar deleting destructor'(unsigned int)" (??_Gexception@std@@UEAAPEAXI@Z) из Main.obj
+      Замененные символы:
+          "public: virtual void * __cdecl std::bad_array_new_length::`scalar deleting destructor'(unsigned int)" (??_Gbad_array_new_length@std@@UEAAPEAXI@Z) из Main.obj
+          "public: virtual void * __cdecl std::bad_alloc::`scalar deleting destructor'(unsigned int)" (??_Gbad_alloc@std@@UEAAPEAXI@Z) из Main.obj
+      Выбранный символ:
           "void __cdecl std::_Throw_bad_array_new_length(void)" (?_Throw_bad_array_new_length@std@@YAXXZ) из Main.obj
       Замененные символы:
           "void __cdecl __scrt_throw_std_bad_array_new_length(void)" (?__scrt_throw_std_bad_array_new_length@@YAXXZ) из MSVCRT.lib(throw_bad_alloc.obj)
       Выбранный символ:
-          "public: virtual void * __cdecl std::exception::`scalar deleting destructor'(unsigned int)" (??_Gexception@std@@UEAAPEAXI@Z) из Main.obj
-      Замененные символы:
-          "public: virtual void * __cdecl std::bad_alloc::`scalar deleting destructor'(unsigned int)" (??_Gbad_alloc@std@@UEAAPEAXI@Z) из Main.obj
-          "public: virtual void * __cdecl std::bad_array_new_length::`scalar deleting destructor'(unsigned int)" (??_Gbad_array_new_length@std@@UEAAPEAXI@Z) из Main.obj
-      Выбранный символ:
           $unwind$?_Xlen_string@std@@YAXXZ из Main.obj
       Замененные символы:
-          $unwind$?_Xran@?$_String_val@U?$_Simple_types@_W@std@@@std@@SAXXZ из Main.obj
           $unwind$?_Xlength@?$vector@DV?$allocator@D@std@@@std@@CAXXZ из Main.obj
           $unwind$?_Xlength@?$vector@PEAUHICON__@@V?$allocator@PEAUHICON__@@@std@@@std@@CAXXZ из Main.obj
-          $unwind$?_Xrange@?$vector@DV?$allocator@D@std@@@std@@CAXXZ из Main.obj
-          $unwind$mainCRTStartup из MSVCRT.lib(exe_main.obj)
-          $unwind$__scrt_acquire_startup_lock из MSVCRT.lib(utility.obj)
-          $unwind$?pre_cpp_initialization@@YAXXZ из MSVCRT.lib(exe_main.obj)
-          $unwind$__scrt_initialize_crt из MSVCRT.lib(utility.obj)
-          $unwind$?post_pgo_initialization@@YAHXZ из MSVCRT.lib(exe_main.obj)
-          $unwind$atexit из MSVCRT.lib(utility.obj)
-          $unwind$?task@@YAKPEAX@Z из Main.obj
-          $unwind$??__EupWind@@YAXXZ из Main.obj
-          $unwind$??__EupHdc@@YAXXZ из Main.obj
           $unwind$??__Fcur@@YAXXZ из Main.obj
-          $unwind$??__Esy@@YAXXZ из Main.obj
-          $unwind$??__Esx@@YAXXZ из Main.obj
+          $unwind$mainCRTStartup из MSVCRT.lib(exe_main.obj)
+          $unwind$?pre_cpp_initialization@@YAXXZ из MSVCRT.lib(exe_main.obj)
+          $unwind$__scrt_acquire_startup_lock из MSVCRT.lib(utility.obj)
+          $unwind$?post_pgo_initialization@@YAHXZ из MSVCRT.lib(exe_main.obj)
+          $unwind$__scrt_initialize_crt из MSVCRT.lib(utility.obj)
+          $unwind$?task@@YAKPEAX@Z из Main.obj
+          $unwind$atexit из MSVCRT.lib(utility.obj)
+          $unwind$??__EupHdc@@YAXXZ из Main.obj
+          $unwind$?tls_callback@@YAXPEAXK0@Z из Main.obj
           $unwind$__scrt_initialize_default_local_stdio_options из MSVCRT.lib(default_local_stdio_options.obj)
           $unwind$??__Edesktop@@YAXXZ из Main.obj
-          $unwind$?tls_callback@@YAXPEAXK0@Z из Main.obj
-          $unwind$__scrt_is_managed_app из MSVCRT.lib(utility_desktop.obj)
           $unwind$__GSHandlerCheck из MSVCRT.lib(gshandler.obj)
+          $unwind$??__Esx@@YAXXZ из Main.obj
+          $unwind$??__Esy@@YAXXZ из Main.obj
+          $unwind$??__EupWind@@YAXXZ из Main.obj
+          $unwind$__scrt_is_managed_app из MSVCRT.lib(utility_desktop.obj)
+          $unwind$?_Xrange@?$vector@DV?$allocator@D@std@@@std@@CAXXZ из Main.obj
+          $unwind$?_Xran@?$_String_val@U?$_Simple_types@_W@std@@@std@@SAXXZ из Main.obj
       Выбранный символ:
           $unwind$?_Throw_bad_array_new_length@std@@YAXXZ из Main.obj
       Замененные символы:
@@ -2766,20 +2808,20 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Выбранный символ:
           $unwind$??0exception@std@@QEAA@AEBV01@@Z из Main.obj
       Замененные символы:
-          $unwind$__scrt_initialize_onexit_tables из MSVCRT.lib(utility.obj)
           $unwind$__scrt_uninitialize_crt из MSVCRT.lib(utility.obj)
-          $unwind$_onexit из MSVCRT.lib(utility.obj)
           $unwind$__raise_securityfailure из MSVCRT.lib(gs_report.obj)
-          $unwind$?RandIcon@@YAPEAUHICON__@@XZ из Main.obj
-          $unwind$?pre_c_initialization@@YAHXZ из MSVCRT.lib(exe_main.obj)
-          $unwind$??0bad_alloc@std@@QEAA@AEBV01@@Z из Main.obj
-          $unwind$??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAA@XZ из Main.obj
-          $unwind$??_Gtype_info@@UEAAPEAXI@Z из MSVCRT.lib(std_type_info_static.obj)
-          $unwind$__scrt_release_startup_lock из MSVCRT.lib(utility.obj)
-          $unwind$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ из Main.obj
+          $unwind$__scrt_initialize_onexit_tables из MSVCRT.lib(utility.obj)
           $unwind$??2@YAPEAX_K@Z из MSVCRT.lib(new_scalar.obj)
+          $unwind$__scrt_release_startup_lock из MSVCRT.lib(utility.obj)
           $unwind$??0bad_array_new_length@std@@QEAA@AEBV01@@Z из Main.obj
+          $unwind$?RandIcon@@YAPEAUHICON__@@XZ из Main.obj
+          $unwind$??_Gtype_info@@UEAAPEAXI@Z из MSVCRT.lib(std_type_info_static.obj)
+          $unwind$??0bad_alloc@std@@QEAA@AEBV01@@Z из Main.obj
           $unwind$??1?$vector@DV?$allocator@D@std@@@std@@QEAA@XZ из Main.obj
+          $unwind$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ из Main.obj
+          $unwind$?pre_c_initialization@@YAHXZ из MSVCRT.lib(exe_main.obj)
+          $unwind$_onexit из MSVCRT.lib(utility.obj)
+          $unwind$??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAA@XZ из Main.obj
       Выбранный символ:
           $unwind$?dtor$0@?0??parent_path@path@v1@filesystem@experimental@std@@QEBA?AV12345@XZ@4HA из Main.obj
       Замененные символы:
@@ -2788,12 +2830,16 @@ LINK : warning LNK4056: лишние аргументы для параметр�
           $unwind$??_Gexception@std@@UEAAPEAXI@Z из Main.obj
       Замененные символы:
           $unwind$_RTC_Terminate из MSVCRT.lib(initsect.obj)
-          $unwind$??$_Allocate_for_capacity@$0A@@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@CAPEA_WAEAV?$allocator@_W@1@AEA_K@Z из Main.obj
-          $unwind$??E?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@v1@filesystem@experimental@std@@QEAAAEAV01234@XZ из Main.obj
           $unwind$__scrt_unhandled_exception_filter из MSVCRT.lib(utility_desktop.obj)
           $unwind$_RTC_Initialize из MSVCRT.lib(initsect.obj)
+          $unwind$??$_Allocate_for_capacity@$0A@@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@CAPEA_WAEAV?$allocator@_W@1@AEA_K@Z из Main.obj
+          $unwind$??E?$_Path_iterator@Vpath@v1@filesystem@experimental@std@@@v1@filesystem@experimental@std@@QEAAAEAV01234@XZ из Main.obj
           $unwind$??_Gbad_alloc@std@@UEAAPEAXI@Z из Main.obj
           $unwind$??_Gbad_array_new_length@std@@UEAAPEAXI@Z из Main.obj
+      Выбранный символ:
+          $unwind$??$_Reallocate_grow_by@V<lambda_1>@?1??append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV34@QEBD_K@Z@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??append@01@QEAAAEAV01@QEBD0@Z@PEBD_K@Z из Main.obj
+      Замененные символы:
+          $unwind$??$_Reallocate_grow_by@V<lambda_1>@?1??insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV34@_KQEBD0@Z@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??insert@01@QEAAAEAV01@0QEBD0@Z@_KPEBD3@Z из Main.obj
       Выбранный символ:
           $pdata$?_Xlength@?$vector@PEAUHICON__@@V?$allocator@PEAUHICON__@@@std@@@std@@CAXXZ из Main.obj
       Замененные символы:
@@ -2807,7 +2853,7 @@ LINK : warning LNK4056: лишние аргументы для параметр�
       Замененные символы:
           $pdata$??_Gexception@std@@UEAAPEAXI@Z из Main.obj
           $pdata$??_Gbad_alloc@std@@UEAAPEAXI@Z из Main.obj
-      Итоговые накопления ICF: 668 байт
+      Итоговые накопления ICF: 692 байт
   Запуск 2-го прохода
        * CIL library *(* CIL module *)
        Resource.res
